@@ -1,0 +1,51 @@
+#title{
+    color: yellow;
+  }
+  
+  button{
+   background-color: rgba(0, 0, 0, 0);
+   width: 13%;
+  }
+  
+  button i{
+    color: white;
+    font-size: 35px;
+  }
+  
+  .close-button{
+    background-color: red;
+    width: 5%;
+  }
+  
+  .close-button:hover{
+    background-color: rgb(192, 3, 3);
+  }
+  
+  .backcard{
+    background-color: #2b2929;
+    padding: 10px;
+  }
+  
+  .card-text, .card-title{
+    color: white;
+    text-align: justify;
+  }
+  
+  #rate{
+    color: yellow;
+  }
+  
+  img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .row{
+    width: 75%;
+    margin: auto;
+  }
+  .col-2{
+    width: 20%;
+  }
+  
+  

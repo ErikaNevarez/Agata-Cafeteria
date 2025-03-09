@@ -1,0 +1,145 @@
+<header>
+    <a href="#" id="logo-1">
+      <img src="Inadaptados_logo.jpg" alt="No hay nada" />
+    </a>
+<nav id="main-menu">
+    <ul>
+        <li><a href="#">Escuela</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Diplomados</a></li>
+        <li><a href="#">Planes</a></li>
+        <li><a href="#">Aprende</a></li>
+    </ul>
+</nav>
+<a class="login-button" href="#">Ingresar</a>
+</header>
+<main>
+    <section class="front">
+        <div class="main">
+            <h1>La escuela <span class="para mañana">para el mañana</span></h1>
+            <p>Más de 100 cursos distintos para aprender sobre tecnología.</p>
+        </div>
+        <div>
+            <p>Empieza a aprender hoy</p>
+        </div>
+    </section>
+
+    <section class="professors">
+        <h3 class="titles">Profesores</h3>
+        <div class="professors-cards">
+            <div class="card-1">
+                <img src="{{prof1.image}}" alt="Profesor-1" class="img-profesor"/>
+                <h3>{{ prof1.name }}</h3>
+                <p>{{ prof1.position }}</p>
+                <p>{{ prof1.course }}</p>
+            </div>
+            <div class="card-1">
+                <img src="{{ prof2.image }}" alt="Profesor-2" class="img-profesor"/>
+                <h3>{{ prof2.name }}</h3>
+                <p>{{ prof2.position }}</p>
+                <p>{{ prof2.course }}</p>
+            </div>
+            <div class="card-1">
+            <img src="{{ prof3.image }}" alt="Profesor-3" class="img-profesor"/>
+                <h3>{{ prof3.name }}</h3>
+                <p>{{ prof3.position }}</p>
+                <p>{{ prof3.course }}</p>
+            </div>
+            <div class="card-1">
+            <img src="{{ prof4.image }}" alt="Profesor-4" class="img-profesor"/>
+                <h3>{{ prof4.name }}</h3>
+                <p>{{ prof4.position }}</p>
+                <p>{{ prof4.course }}</p>
+            </div>  
+        </div>             
+    </section>
+
+    <section class="active-courses">
+      <h3>Cursos activos</h3>
+      <div class="courses">
+        <ul>
+            <li>
+                <a href="#">{{ prof1.course }}</a>
+                <p> {{ prof1.descripcion }}</p>
+            </li>
+            <li>
+                <a href="#">{{ prof2.course }}</a>
+                <p>{{ prof2.descripcion }}</p>
+            </li>
+            <li>
+                <a href="#">{{ prof3.course }}</a>
+                <p>{{ prof3.descripcion }}</p>
+            </li>
+            <li>
+                <a href="#">{{ prof4.course }}</a>
+                <p>{{ prof4.descripcion }}</p>
+            </li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="professors">
+        <h3 class="titles">Profesores</h3>
+        <div class="professors-cards">
+            <div class="card-1">
+                <img src="{{prof5.image}}" alt="Profesor-5" class="img-profesor"/>
+                <h3>{{ prof5.name }}</h3>
+                <p>{{ prof5.position }}</p>
+                <p>{{ prof5.course }}</p>
+            </div>
+            <div class="card-1">
+                <img src="{{ prof6.image }}" alt="Profesor-6" class="img-profesor"/>
+                <h3>{{ prof6.name }}</h3>
+                <p>{{ prof6.position }}</p>
+                <p>{{ prof6.course }}</p>
+            </div>
+            <div class="card-1">
+            <img src="{{ prof7.image }}" alt="Profesor-7" class="img-profesor"/>
+                <h3>{{ prof7.name }}</h3>
+                <p>{{ prof7.position }}</p>
+                <p>{{ prof7.course }}</p>
+            </div>
+            <div class="card-1">
+            <img src="{{ prof8.image }}" alt="Profesor-8" class="img-profesor"/>
+                <h3>{{ prof8.name }}</h3>
+                <p>{{ prof8.position }}</p>
+                <p>{{ prof8.course }}</p>
+            </div>  
+        </div>             
+    </section>
+
+    <section class="active-courses2">
+        <h3>Diplomados activos</h3>
+        <div class="courses2">
+          <ul>
+              <li>
+                  <a href="#">{{ prof5.course }}</a>
+                  <p> {{ prof5.descripcion }}</p>
+              </li>
+              <li>
+                  <a href="#">{{ prof6.course }}</a>
+                  <p>{{ prof6.descripcion }}</p>
+              </li>
+              <li>
+                  <a href="#">{{ prof7.course }}</a>
+                  <p>{{ prof7.descripcion }}</p>
+              </li>
+              <li>
+                  <a href="#">{{ prof8.course }}</a>
+                  <p>{{ prof8.descripcion }}</p>
+              </li>
+          </ul>
+      </div>
+      </section>
+
+</main>
+
+<footer>
+    <div class="copyright">
+        <p>
+            Copyright {{ footerDate }} by 
+            <a href="#"><span>&copy;</span>Indptdos</a> - All right reserved
+        </p>
+    </div>
+</footer>
+

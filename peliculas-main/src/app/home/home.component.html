@@ -1,0 +1,67 @@
+<app-nav></app-nav>
+<br>
+<br>
+<div class="container">
+<h2 id="title">Las 10 mejores películas de la semana</h2>
+<br>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" style="background-color: black;">
+    <div class="carousel-inner">
+        @for(i of fnGetItemsNumber();track $index){
+            @if($index==0){
+                <div class="carousel-item active">
+                    <div class="row">
+                        @for (movie of fnGetItems($index); track movie) {
+                            <div class="col-2">
+                                <app-card [movie]="movie" (showInfo)="fnCallFromChild($event)"></app-card>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }@else {
+                <div class="carousel-item">
+                    <div class="row">
+                        @for(movie of fnGetItems($index);track movie){
+                            <div class="col-2">
+                                <app-card [movie]="movie" (showInfo)="fnCallFromChild($event)"></app-card>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        }
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+  </div>
+  <!--Modal con la informacion de la pelicula seleccionada-->
+  @if (showInfo){
+    <div class="overlay">
+       <div class="backcard">
+            <div class="card mb-3" style="max-width: 820px; background-color: #504c4c">
+                <button class="close-button" (click)="fnClosePopUp()">x</button>
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img [src]="selectedMovie?.img" class="img-fliud rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{selectedMovie?.title}}</h5>
+                            <p class="card-text">Año{{selectedMovie?.year}}</p>
+                            <p class="card-text">{{selectedMovie?.genre}}</p>
+                            <p class="card-text" id="rate">{{selectedMovie?.rate}}</p>
+                            <p class="card-text">{{selectedMovie?.description}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+  }
+
+</div>

@@ -1,0 +1,68 @@
+<div>
+  <h1>Arreglo de numeros</h1>
+  <ul>
+@for(i of numeros; track i){
+   <li>{{ i }}</li>
+}
+ </ul>
+</div>
+
+<div>
+  <h1>Arreglo de frutas</h1>
+  <ul>
+    @for(f of frutas; track f){
+       <li>{{ f }}</li>
+    }
+     </ul> 
+</div>
+
+
+<div>
+   <h1>Arreglo de objetos</h1>
+   @for(k of empleados; track k; let i=$index) {
+    <p>posicion {{i}}</p>
+    <p>{{k.nombre}}</p>
+    <p>{{k.puesto}}</p>
+    <p>{{k.sueldo}}</p>
+    <p>{{k.antiguedad}}</p>
+    <p>----------------</p>
+   }
+   
+</div>
+
+<div>
+  <h1>Arreglo de objetos como tabla</h1>
+  <table>
+    @for(j of empleados; track j){
+      <tr>
+        <td>{{j.nombre}}</td>
+        <td>{{j.puestp}}</td>
+        <td>{{j.sueldo}}</td>
+        <td>{{j.antiguedad}}</td>
+
+      </tr>
+    }  
+  </table>
+</div>
+
+<div> 
+  <h1>Buscando</h1>
+  <table>
+    @if ( j.puesto=="Vendedor"){
+      <tr>
+        <td>{{j.nombre}}</td>
+        <td>{{j.puestp}}</td>
+        <td>{{j.sueldo}}</td>
+        <td>{{j.antiguedad}}</td>
+      </tr>
+    }  
+  </table>
+</div>
+
+
+<div>
+  <h1>buscando frutas en el arreglo</h1>
+  <input #m (keydown.enter)="buscandoFruta (m.value)" type="text" placeholder="Fruta a buscar">
+  {{mensaje}}
+  
+</div>

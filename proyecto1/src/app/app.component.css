@@ -1,0 +1,15 @@
+div{
+    background-color: lavender;
+    color: navy;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+    border: 1px solid black;
+    width: 30%;
+    margin: 0 auto;
+}
+
+img{
+    height: 300px;
+    
+}
