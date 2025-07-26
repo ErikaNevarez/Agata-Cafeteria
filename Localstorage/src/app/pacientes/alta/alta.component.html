@@ -1,0 +1,38 @@
+<div id="contenedor">
+    <h1>Hospital MAC</h1>
+    <h2>Ingresar paciente</h2>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Número de habitación:</span>
+        <input [(ngModel)]="paciente.habitacion"  type="number" class="form-control" placeholder="habitación" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Nombre de paciente:</span>
+        <input [(ngModel)]="paciente.nombre"  type="text" class="form-control" placeholder="nombre" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Nombre del doctor:</span>
+        <input [(ngModel)]="paciente.doctor"  type="text" class="form-control" placeholder="doctor" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Diagnóstico:</span>
+        <input [(ngModel)]="paciente.diagnostico"  type="text" class="form-control" placeholder="diagnóstico" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" for="inputGroupSelect01">Especialidad</span>
+        <select [(ngModel)]="paciente.especialidad"  class="form-select" id="inputGroupSelect01">
+            @for (t of especialistas; track t) {
+                <option value="{{ t.id }}"> {{ t.nombre}}</option>
+          }
+          </select>
+    </div>
+
+    <button (click)="nuevoPaciente()" type="button" class="btn btn-success">Ingresar paciente</button>
+
+
+
+</div>

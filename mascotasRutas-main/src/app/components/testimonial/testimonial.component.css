@@ -1,0 +1,8 @@
+.testimonies{
+    display: flex;
+    justify-content: space-around;
+}
+.testimony{
+    max-width: 250px;
+    height: auto;
+}

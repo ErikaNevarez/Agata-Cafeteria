@@ -1,0 +1,272 @@
+[
+  {
+    "id_pet": 1,
+    "type": "Perro",
+    "place": "Ciudad de México",
+    "name": "Max",
+    "picture": "assets/images/Labrador.jpg",
+    "state": "en busca de hogar",
+    "race": "Labrador"
+  },
+  {
+    "id_pet": 2,
+    "type": "Gato",
+    "place": "Guadalajara",
+    "name": "Miau",
+    "picture": "assets/images/siames.jpg",
+    "state": "perdido",
+    "race": "Siames"
+  },
+  {
+    "id_pet": 3,
+    "type": "Perro",
+    "place": "Monterrey",
+    "name": "Rocky",
+    "picture": "assets/images/chihuahua-1.png",
+    "state": "adoptado",
+    "race": "Chihuahua"
+  },
+  {
+    "id_pet": 4,
+    "type": "Perro",
+    "place": "Puebla",
+    "name": "Bingo",
+    "picture": "assets/images/pitbull.jpg",
+    "state": "en busca de hogar",
+    "race": "Pitbull"
+  },
+  {
+    "id_pet": 5,
+    "type": "Gato",
+    "place": "Cancún",
+    "name": "Felix",
+    "picture": "assets/images/persa.jpg",
+    "state": "adoptado",
+    "race": "Persa"
+  },
+  {
+    "id_pet": 6,
+    "type": "Perro",
+    "place": "Tijuana",
+    "name": "Rex",
+    "picture": "assets/images/rottweiler.webp",
+    "state": "perdido",
+    "race": "Rottweiler"
+  },
+  {
+    "id_pet": 7,
+    "type": "Gato",
+    "place": "Querétaro",
+    "name": "Luna",
+    "picture": "assets/images/mainecoon.webp",
+    "state": "en busca de hogar",
+    "race": "Maine Coon"
+  },
+  {
+    "id_pet": 8,
+    "type": "Perro",
+    "place": "Aguascalientes",
+    "name": "Toby",
+    "picture": "assets/images/Beagle-1.jpg",
+    "state": "adoptado",
+    "race": "Beagle"
+  },
+  {
+    "id_pet": 9,
+    "type": "Gato",
+    "place": "México",
+    "name": "Oscar",
+    "picture": "assets/images/bengali.webp",
+    "state": "perdido",
+    "race": "Bengalí"
+  },
+  {
+    "id_pet": 10,
+    "type": "Perro",
+    "place": "León",
+    "name": "Bella",
+    "picture": "assets/images/dalmata.jpg",
+    "state": "en busca de hogar",
+    "race": "Dálmata"
+  },
+  {
+    "id_pet": 11,
+    "type": "Perro",
+    "place": "Toluca",
+    "name": "Rocky",
+    "picture": "assets/images/golden.webp",
+    "state": "adoptado",
+    "race": "Golden Retriever"
+  },
+  {
+    "id_pet": 12,
+    "type": "Gato",
+    "place": "Veracruz",
+    "name": "Sasha",
+    "picture": "assets/images/siberiano.png",
+    "state": "en busca de hogar",
+    "race": "Siberiano"
+  },
+  {
+    "id_pet": 13,
+    "type": "Perro",
+    "place": "Querétaro",
+    "name": "Fury",
+    "picture": "assets/images/deutscher.jpg",
+    "state": "perdido",
+    "race": "Pastor Alemán"
+  },
+  {
+    "id_pet": 14,
+    "type": "Gato",
+    "place": "Chihuahua",
+    "name": "Simba",
+    "picture": "assets/images/british.jpg",
+    "state": "adoptado",
+    "race": "British Shorthair"
+  },
+  {
+    "id_pet": 15,
+    "type": "Perro",
+    "place": "Puebla",
+    "name": "Toby",
+    "picture": "assets/images/frances.jpg",
+    "state": "en busca de hogar",
+    "race": "Bulldog Francés"
+  },
+  {
+    "id_pet": 16,
+    "type": "Perro",
+    "place": "Durango",
+    "name": "Luna",
+    "picture": "assets/images/beagle-2.jpg",
+    "state": "adoptado",
+    "race": "Beagle"
+  },
+  {
+    "id_pet": 17,
+    "type": "Gato",
+    "place": "Monterrey",
+    "name": "Misty",
+    "picture": "assets/images/ragdoll.jpg",
+    "state": "perdido",
+    "race": "Ragdoll"
+  },
+  {
+    "id_pet": 18,
+    "type": "Perro",
+    "place": "Guanajuato",
+    "name": "Sox",
+    "picture": "assets/images/cocker.webp",
+    "state": "en busca de hogar",
+    "race": "Cocker Spaniel"
+  },
+  {
+    "id_pet": 19,
+    "type": "Perro",
+    "place": "Chihuahua",
+    "name": "Bobby",
+    "picture": "assets/images/ingles.webp",
+    "state": "adoptado",
+    "race": "Bulldog Inglés"
+  },
+  {
+    "id_pet": 20,
+    "type": "Gato",
+    "place": "México",
+    "name": "Oliver",
+    "picture": "assets/images/persa-2.jpg",
+    "state": "perdido",
+    "race": "Persa"
+  },
+  {
+    "id_pet": 21,
+    "type": "Perro",
+    "place": "Guadalajara",
+    "name": "Chester",
+    "picture": "assets/images/husky.png",
+    "state": "adoptado",
+    "race": "Husky"
+  },
+  {
+    "id_pet": 22,
+    "type": "Gato",
+    "place": "Tijuana",
+    "name": "Milo",
+    "picture": "assets/images/Abyssinian.jpg",
+    "state": "en busca de hogar",
+    "race": "Abyssinian"
+  },
+  {
+    "id_pet": 23,
+    "type": "Perro",
+    "place": "Monterrey",
+    "name": "Coco",
+    "picture": "assets/images/cocker-2.webp",
+    "state": "perdido",
+    "race": "Cocker Spaniel"
+  },
+  {
+    "id_pet": 24,
+    "type": "Gato",
+    "place": "León",
+    "name": "Zoe",
+    "picture": "assets/images/mainecoon.webp",
+    "state": "adoptado",
+    "race": "Maine Coon"
+  },
+  {
+    "id_pet": 25,
+    "type": "Perro",
+    "place": "Ciudad de México",
+    "name": "Loki",
+    "picture": "assets/images/doberman.jpg",
+    "state": "en busca de hogar",
+    "race": "Doberman"
+  },
+  {
+    "id_pet": 26,
+    "type": "Gato",
+    "place": "Querétaro",
+    "name": "Cleo",
+    "picture": "assets/images/siames-2.jpg",
+    "state": "adoptado",
+    "race": "Siames"
+  },
+  {
+    "id_pet": 27,
+    "type": "Perro",
+    "place": "Puebla",
+    "name": "Toby",
+    "picture": "assets/images/maltes.webp",
+    "state": "perdido",
+    "race": "Maltés"
+  },
+  {
+    "id_pet": 28,
+    "type": "Gato",
+    "place": "Tijuana",
+    "name": "Salem",
+    "picture": "assets/images/perrito2.webp",
+    "state": "en busca de hogar",
+    "race": "Sphynx"
+  },
+  {
+    "id_pet": 29,
+    "type": "Perro",
+    "place": "Durango",
+    "name": "Zeus",
+    "picture": "assets/images/pitbull.jpg",
+    "state": "adoptado",
+    "race": "Pitbull"
+  },
+  {
+    "id_pet": 30,
+    "type": "Gato",
+    "place": "Aguascalientes",
+    "name": "Nina",
+    "picture": "assets/images/siberiano-2.png",
+    "state": "perdido",
+    "race": "Siberiano"
+  }
+]

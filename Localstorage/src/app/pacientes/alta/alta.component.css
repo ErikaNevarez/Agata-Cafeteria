@@ -1,0 +1,21 @@
+#contenedor{
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto; 
+    background-color: white;
+}
+
+#contenedor button {
+    width: 100%;
+}
+
+#contenedor span {
+    width: 175px;
+}
+
+h1, h2{
+    text-align: center;
+}
+

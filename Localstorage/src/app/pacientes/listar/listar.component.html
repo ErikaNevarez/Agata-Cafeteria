@@ -1,0 +1,40 @@
+<div id="contenedor">
+    <h2>Listado Pacientes</h2>
+
+    @if(pacientes.length===0 ) {
+        <div>No hay pacientes por el momento</div>        
+    }@else{
+            
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"># Habitación</th>
+                <th scope="col">Nombre del paciente</th>
+                <th scope="col">Nombre del nombre</th>
+                <th scope="col">Diagnostico</th>
+                <th scope="col">Especialidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (p of pacientes; track p) {
+                <tr>
+                    <td>{{p.habitacion}}</td>
+                    <td>{{p.nombre}}</td>
+                    <td>{{p.doctor}}</td>
+                    <td>{{p.diagnostico}}</td>
+                    <td>{{p.especialidad}}</td>
+
+                </tr>
+
+              }
+
+
+            </tbody>
+          </table>
+
+
+    }
+
+
+
+</div>

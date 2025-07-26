@@ -1,0 +1,38 @@
+<div [id]="id_Carrosel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner cards-container">
+        
+        @for ( i of fnGetItemsNumber(); track $index) {
+        @if ($index==0) {
+        <div class="carousel-item active">
+            <div class="row">
+                @for (pet of fnGetItems($index); track pet) {
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center">
+                    <app-card [pet]="pet"></app-card>
+                </div>
+                }
+            </div>
+        </div>
+        }@else {
+        <div class="carousel-item">
+            <div class="row">
+                @for (pet of fnGetItems($index); track pet) {
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center">
+                    <app-card [pet]="pet"></app-card>
+                </div>
+                }
+            </div>
+        </div>
+        }
+        }
+        
+
+    </div>
+    <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#' + id_Carrosel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#'+id_Carrosel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

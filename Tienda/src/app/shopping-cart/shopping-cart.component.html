@@ -1,0 +1,21 @@
+<h1>Uso de decoradores Input y Output</h1>
+<h2>Tienda de Tenis</h2>
+<div class="product-list">
+    @for (product of products; track product) {
+        <app-product-item  (productAdded)="onProductAdded($event)"
+            [productName]="product.name"
+            [productPrice]="product.price"
+            [productImage]="product.image"           
+        >
+        </app-product-item>
+    }
+</div>
+
+<h2>Carrito de compras</h2>
+<ol>
+    @for (product of cartItems; track product) {
+        <li>{{product}}</li>
+    }
+</ol>
+
+<h2>Total de la venta: {{total | currency}}</h2>

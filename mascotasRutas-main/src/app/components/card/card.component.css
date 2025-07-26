@@ -1,0 +1,33 @@
+
+
+.custom-card {
+    width: 200px; 
+    background: var(--bg-card-color);
+    border-radius: var(--border-card);
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+    text-align: center;
+}
+
+.custom-card img {
+    height: 150px;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.location {
+    color: var(--location-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pet-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pet-characteristics {
+    color: var(--text-color);
+    font-size: 14px;
+}

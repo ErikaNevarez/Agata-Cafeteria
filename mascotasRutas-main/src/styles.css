@@ -1,0 +1,17 @@
+:root {
+    --text-color: #6D1B7B;
+    --location-color: #6D6D6D;
+    --bg-card-color: #fff;
+    --shadow-card: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    --border-card: 20px;
+}
+
+.second-text{
+    color:var(--text-color)
+}
+
+
+body {
+    font-family: 'Balsamiq Sans', sans-serif;
+  }
+  

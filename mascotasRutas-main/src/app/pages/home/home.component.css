@@ -1,0 +1,65 @@
+.section {
+  background-image: url("../../../../public/assets/images/bg_footprint1.png"),
+    url("../../../../public/assets/images/bg_footprint2.png");
+  background-size: 50%, 20%;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#search {
+  color: #ffa53b;
+}
+#heart {
+  color: #a548ff;
+}
+
+#home {
+  color: #ff738e;
+}
+.achievement-card{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.achievement-card::before,
+.achievement-card::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+}
+.achievement-card::before{
+    top: 10px;
+    left: 10px;
+    border-right: none;
+    border-bottom: none;
+}
+.achievement-card::after{
+    bottom: 10px;
+    right: 10px;
+    border-left: none;
+    border-top: none;
+}
+#achievement-1 {
+    background-color: #a548ff !important;
+  }
+  
+  #achievement-2 {
+    background-color: #ffa53b !important;
+  }
+  
+  #achievement-3 {
+    background-color: #ff738e !important;
+  }

@@ -1,0 +1,25 @@
+.product-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 8px;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: deeppink;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}

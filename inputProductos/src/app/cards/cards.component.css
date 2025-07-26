@@ -1,0 +1,12 @@
+img {
+   max-width: 300px;
+   max-height: 200px; 
+}
+
+.product-card{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+       
+}

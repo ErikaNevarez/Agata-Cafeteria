@@ -1,0 +1,38 @@
+<div id="principal">
+  <div>
+    <h1>Manejo de servicios</h1>
+    <h1>Lista de clientes</h1>
+    @if ( clientesService.clientes.length > 0 ){ <table>
+      <tr>
+        <th>Cliente</th>
+        <th>id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Company</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Adress</th>
+      </tr>
+      @for (cte of clientesService.clientes; track cte; let i=$index) {
+      <tr>
+        <td [ngStyle]="{'color':letra, 'font-weight':negrita}">{{i+1}}</td>
+        <td>{{cte._id}}</td>
+        <td>{{cte.name}}</td>
+        <td>{{cte.gender}}</td>
+        <td>{{cte.age}}</td>
+        <td>{{cte.company}}</td>
+        <td>{{cte.email}}</td>
+        <td>{{cte.phone}}</td>
+        <td>{{cte.phone}}</td>
+        <td>{{cte.address}}</td>
+      </tr>
+      }
+    </table>
+    }@else{
+    <p>No hay datos por el momento</p>
+    }
+
+  </div>
+
+</div>

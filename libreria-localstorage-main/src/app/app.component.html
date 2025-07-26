@@ -1,0 +1,8 @@
+<app-header></app-header>
+<div>
+  <app-banner></app-banner>
+  <app-search-bar (listOutPut)="searchEvent($event)"></app-search-bar>
+  <app-list  [bookList]="myBookList" ></app-list>
+</div>
+<app-footer></app-footer>
+

@@ -1,0 +1,13 @@
+<h1>Uso del decorador Input</h1>
+<div class="product-list">
+    @for(product of  products; track product){
+        <app-cards
+            [productName]="product.name"
+            [productPrice]="product.price"
+            [productImage]="product.image"    
+        >
+        </app-cards>
+
+    }
+
+</div>

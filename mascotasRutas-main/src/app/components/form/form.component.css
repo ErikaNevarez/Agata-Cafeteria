@@ -1,0 +1,15 @@
+.join-us-form{
+    width: 75%;
+}
+input {
+    text-align: center; 
+}
+#name{
+    background-color: aqua;
+} 
+#correo{
+    background-color: #ffa53baf;
+}
+#telefono{
+    background-color: #ff738eaf;
+}
