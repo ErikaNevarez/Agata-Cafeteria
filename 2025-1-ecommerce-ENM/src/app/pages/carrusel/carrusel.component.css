@@ -1,0 +1,8 @@
+.carousel-item img {
+  width: 80%;           /* 80% del ancho */
+  height: 40vh;         /* alto fijo relativo a la pantalla */
+  object-fit: contain;  /* ajusta la imagen sin recortarla */
+  margin: 0 auto;       /* centra horizontalmente */
+  display: block;       /* para que el margin funcione */
+  border-radius: 20px;
+}

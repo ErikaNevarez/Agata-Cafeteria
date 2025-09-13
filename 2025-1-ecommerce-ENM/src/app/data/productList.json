@@ -1,0 +1,148 @@
+ [
+
+  {
+    "nombre": "Lentes de seguridad transparentes",
+    "descripcion": "Protección ocular con visión clara, resistentes a impactos.",
+    "precio": 85,
+    "categoria": "lentes",
+    "industria": "alimentaria",
+    "marca": "3M",
+    "img": "/images/lens1.png"
+  },
+  {
+    "nombre": "Lentes de seguridad tintados",
+    "descripcion": "Lentes con protección UV para ambientes soleados.",
+    "precio": 95,
+    "categoria": "lentes",
+    "industria": "agricola",
+    "marca": "Uline",
+    "img": "lens2.png"
+  },
+  {
+    "nombre": "Lentes antivaho",
+    "descripcion": "Diseñados para evitar el empañamiento en climas húmedos.",
+    "precio": 90,
+    "categoria": "lentes",
+    "industria": "quimica",
+    "marca": "Sequro",
+    "img": "lens3.png"
+  },
+  {
+    "nombre": "Lentes con marco reforzado",
+    "descripcion": "Alta resistencia y durabilidad para trabajos exigentes.",
+    "precio": 100,
+    "categoria": "lentes",
+    "industria": "siderurgica",
+    "marca": "Berrendo",
+    "img": "lens4.png"
+  },
+  {
+    "nombre": "Casco de seguridad amarillo",
+    "descripcion": "Casco resistente a golpes, con ajuste rápido.",
+    "precio": 250,
+    "categoria": "cascos",
+    "industria": "alimentaria",
+    "marca": "Quantum",
+    "img": "helmet1.png"
+  },
+  {
+    "nombre": "Casco de seguridad blanco",
+    "descripcion": "Ligero y cómodo, ideal para obras generales.",
+    "precio": 260,
+    "categoria": "cascos",
+    "industria": "agricola",
+    "marca": "3M",
+    "img": "helmet2.png"
+  },
+  {
+    "nombre": "Casco con visera integrada",
+    "descripcion": "Protección extra para el rostro con visera ajustable.",
+    "precio": 310,
+    "categoria": "cascos",
+    "industria": "quimica",
+    "marca": "Uline",
+    "img": "helmet3.png"
+  },
+  {
+    "nombre": "Casco ventilado para verano",
+    "descripcion": "Mayor comodidad en climas cálidos con ventilación.",
+    "precio": 280,
+    "categoria": "cascos",
+    "industria": "siderurgica",
+    "marca": "Sequro",
+    "img": "helmet4.png"
+  },
+  {
+    "nombre": "Guantes de cuero resistentes",
+    "descripcion": "Perfectos para manipular materiales ásperos.",
+    "precio": 120,
+    "categoria": "guantes",
+    "industria": "alimentaria",
+    "marca": "Berrendo",
+    "img": "glove1.png"
+  },
+  {
+    "nombre": "Guantes de nitrilo",
+    "descripcion": "Resistentes a químicos y líquidos, sin látex.",
+    "precio": 130,
+    "categoria": "guantes",
+    "industria": "agricola",
+    "marca": "Quantum",
+    "img": "glove2.png"
+  },
+  {
+    "nombre": "Guantes térmicos",
+    "descripcion": "Protección contra temperaturas bajas para trabajos en frío.",
+    "precio": 140,
+    "categoria": "guantes",
+    "industria": "quimica",
+    "marca": "3M",
+    "img": "glove3.png"
+  },
+  {
+    "nombre": "Guantes anti-corte",
+    "descripcion": "Materiales especiales para evitar cortes y heridas.",
+    "precio": 150,
+    "categoria": "guantes",
+    "industria": "siderurgica",
+    "marca": "Uline",
+    "img": "glove4.png"
+  },
+  {
+    "nombre": "Botas de seguridad con punta de acero",
+    "descripcion": "Protección máxima para los pies en entornos peligrosos.",
+    "precio": 450,
+    "categoria": "calzado",
+    "industria": "alimentaria",
+    "marca": "Sequro",
+    "img": "boot1.png"
+  },
+  {
+    "nombre": "Botas impermeables",
+    "descripcion": "Ideales para trabajos en áreas húmedas o mojadas.",
+    "precio": 420,
+    "categoria": "calzado",
+    "industria": "agricola",
+    "marca": "Berrendo",
+    "img": "boot2.png"
+  },
+  {
+    "nombre": "Botas anti-deslizantes",
+    "descripcion": "Mayor agarre para superficies resbaladizas.",
+    "precio": 440,
+    "categoria": "calzado",
+    "industria": "quimica",
+    "marca": "Quantum",
+    "img": "boot3.png"
+  },
+  {
+    "nombre": "Botas ligeras con soporte reforzado",
+    "descripcion": "Comodidad y protección para largas jornadas de trabajo.",
+    "precio": 430,
+    "categoria": "calzado",
+    "industria": "siderurgica",
+    "marca": "3M",
+    "img": "boot4.png"
+  }
+
+]
